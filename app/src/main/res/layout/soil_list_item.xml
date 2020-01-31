@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Project Name: Kanak-Smart Composting
+     Author List : Varad Gorhe ,Team Leader
+     Filename    : soil_list_item.xml
+     Global Variables:None
+     Functions   : None
+
+     This file contains the frontend code for Soil readings list page
+
+      -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/soilReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/background"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/tempReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/background"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

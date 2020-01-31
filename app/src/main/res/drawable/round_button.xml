@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Project Name: Kanak-Smart Composting
+     Author List : Varad Gorhe ,Team Leader
+     Filename    : round_button.xml
+     Global Variables:None
+     Functions   : None
+
+     This file contains the frontend code for round buttons
+
+
+      -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="@color/eco"
+        />
+    <corners
+        android:radius="25dp"/>
+
+</shape>

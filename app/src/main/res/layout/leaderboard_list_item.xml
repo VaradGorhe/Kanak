@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Project Name: Kanak-Smart Composting
+     Author List : Varad Gorhe ,Team Leader
+     Filename    : leaderboard_list_item.xml
+     Global Variables:None
+     Functions   : None
+
+     This file contains the frontend code for Leaderboard list page
+     It has textview for rank,username and points.
+
+      -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/background"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rank"
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/background"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/leaderboardPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/background"
+            android:text="0"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

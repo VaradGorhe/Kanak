@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Project Name: Kanak-Smart Composting
+     Author List : Varad Gorhe ,Team Leader
+     Filename    : fragment_home.xml
+     Global Variables:None
+     Functions   : None
+
+     This file contains the frontend code for Home page of Bottom Navigation bar
+
+      -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@color/eco">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="सृजन"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp" />
+
+        <ImageView
+            android:id="@+id/imageBin1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@id/tv1"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Composting"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textColor="@color/eco"
+                android:background="@drawable/round_button_white"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:enabled="false"
+                android:layout_marginTop="100dp"
+                android:id="@+id/start1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="End Composting"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textColor="@color/eco"
+                android:background="@drawable/round_button_white"
+                android:layout_marginTop="180dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:enabled="false"
+                android:id="@+id/end1"
+                />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="सृष्टी"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/eco"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp"
+            android:enabled="false"
+            />
+
+        <ImageView
+            android:id="@+id/imageBin2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@id/tv2"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Composting"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:enabled="false"
+            android:background="@drawable/round_button"
+            android:id="@+id/start2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End Composting"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:enabled="false"
+            android:layout_marginTop="180dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round_button"
+            android:id="@+id/end2" />
+
+
+
+    </RelativeLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"/>
+</RelativeLayout>

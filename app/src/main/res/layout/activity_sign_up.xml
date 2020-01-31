@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Project Name: Kanak-Smart Composting
+     Author List : Varad Gorhe ,Team Leader
+     Filename    : activity_sign_up.xml
+     Global Variables:None
+     Functions   : None
+
+     This file contains the frontend code for SignUp page
+
+      -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/eco"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:background="@drawable/round_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:textColorHint="@android:color/black"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/eco"
+        android:textSize="15dp"
+        android:id="@+id/user"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Phone Number"
+        android:background="@drawable/round_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:textColorHint="@android:color/black"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/eco"
+        android:textSize="15dp"
+        android:id="@+id/contact"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email-Id"
+        android:background="@drawable/round_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:textColorHint="@android:color/black"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/eco"
+        android:textSize="15dp"
+        android:id="@+id/email"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:background="@drawable/round_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:textColorHint="@android:color/black"
+        android:textColor="@color/eco"
+        android:layout_marginTop="340dp"
+        android:id="@+id/passwod"
+        android:textSize="15dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/round_button"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/eco"
+        android:layout_marginTop="480dp"
+        />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/round_button"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorNavIcon">#FFFFFF</color>
+    <color name="colorNavText">#FFFFFF</color>
+    <color name="background">#272925</color>
+    <color name="black">#070907</color>
+    <color name="eco">#4CAF50</color>
+
+
+    <color name="progress">#3E7E41</color>
+    <color name="lightgray">#0A000000</color>
+</resources>

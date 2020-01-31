@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Project Name: Kanak-Smart Composting
+     Author List : Varad Gorhe ,Team Leader
+     Filename    : activity_sign_in.xml
+     Global Variables:None
+     Functions   : None
+
+     This file contains the frontend code for SignIn page
+
+      -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="10dp"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/eco"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:hint="Email"
+        android:textColorHint="@android:color/black"
+        android:background="@drawable/round_text"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="@color/eco"
+        android:layout_marginTop="170dp"
+        android:textColor="@color/eco"
+        android:textSize="15dp"
+        android:id="@+id/username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:textColorHint="@android:color/black"
+        android:background="@drawable/round_text"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHighlight="@color/eco"
+        android:textColor="@color/eco"
+        android:layout_marginTop="250dp"
+        android:id="@+id/password"
+        android:textSize="15dp"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/eco"
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User?"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/eco"
+        android:layout_marginTop="440dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new account"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/round_button"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/eco"
+        android:id="@+id/register"
+        />
+
+
+</RelativeLayout>

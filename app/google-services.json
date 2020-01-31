@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530205629957",
+    "firebase_url": "https://kanak-96289.firebaseio.com",
+    "project_id": "kanak-96289",
+    "storage_bucket": "kanak-96289.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530205629957:android:3f7b0acafd2ff26a29066c",
+        "android_client_info": {
+          "package_name": "com.example.eyickanak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530205629957-bs7ipmomlaagcgq163u9k60m9eqesose.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eyickanak",
+            "certificate_hash": "cd268bd497a6e46058306716e45187c2769584ac"
+          }
+        },
+        {
+          "client_id": "530205629957-nas0p44njo19c18te1nqt132slqi5ii7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVtSVqstAkdQWwUF8X4nzfFdt1p8X5CAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530205629957-nas0p44njo19c18te1nqt132slqi5ii7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
