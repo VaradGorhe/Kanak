@@ -371,7 +371,7 @@ else
   pts=0;
  } 
  
-Firebase.setInt("Points/7HEypfe0s5QzOtW2xhkoD2IUeEy1/Bin2/score", pts);            //Points send to database
+Firebase.setInt("Points/7HEypfe0s5QzOtW2xhkoD2IUeEy1/score", pts);            //Points send to database
 
 //Compost done properly should not take more than 40 days at worst and also should not be ready in less than 12 days.
 
