@@ -26,7 +26,7 @@
 
 #include <ESP8266WiFi.h>
 
-#define temp1 16                         //D0 pin of nodemcu
+#define temp1 4                         //D2 pin of nodemcu
 
 
                
